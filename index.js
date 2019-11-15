@@ -1,4 +1,5 @@
 var time = require('time');
+console.log(111);
 exports.handler = (event, context, callback) => {
     var currentTime = new time.Date(); 
     currentTime.setTimezone("America/Los_Angeles");
